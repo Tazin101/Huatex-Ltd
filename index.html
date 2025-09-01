@@ -150,16 +150,16 @@
       </div>
       <form class="contact-form" name="contact" netlify>
         <input type="hidden" name="form-name" value="contact">
-        <label>Company
-          <input type="text" name="company" required>
-        </label>
-        <label>Email
-          <input type="email" name="email" required>
-        </label>
-        <label>Message
-          <textarea name="message" rows="5" required></textarea>
-        </label>
-        <button type="submit">Send</button>
+        
+        <label for="company">Company</label>
+        <input type="text" id="company" name="company" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+      <button type="submit">Send</button>
       </form>
     </div>
   </section>
