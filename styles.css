@@ -6,8 +6,13 @@
   --muted:#6b7280;
   --line:#e5e7eb;
   --bg:#fafafa;
-  --dark:#0f172a;
+  --dark:#0f172a; 
 }
+
+html {
+  scroll-behavior: smooth;  /* ✅ Smooth scroll */
+}
+
 *{box-sizing:border-box}
 html,body{margin:0;padding:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--ink);background:#fff}
 .container{max-width:1200px;margin:0 auto;padding:0 20px}
@@ -100,3 +105,8 @@ h2{margin-top:0;font-size:28px}
 .dots{position:absolute;left:50%;transform:translateX(-50%);bottom:16px;display:flex;gap:8px;z-index:2}
 .dot{width:10px;height:10px;border-radius:999px;background:rgba(255,255,255,.6);border:none;cursor:pointer}
 .dot.active{background:#fff}
+
+/* ✅ Fix: stop sticky header from covering anchors */
+.section {
+  scroll-margin-top: 80px; /* adjust to match header height */
+}
