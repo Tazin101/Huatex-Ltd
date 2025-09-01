@@ -105,7 +105,7 @@ h2{margin-top:0;font-size:28px}
 
 
 /* Huatex logo top-left, simple icon removals */
-.brand-logo { height: 70px; width: auto; border-radius: 4px; display: block; }
+.brand-logo { height: 60px; width: auto; border-radius: 4px; display: block; }
 .header-actions.right { display: none; } /* hide account/cart group */
 .icon-btn { display: none; } /* hide search or any extra icon buttons */
 
